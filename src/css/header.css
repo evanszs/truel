@@ -182,4 +182,11 @@ color:white;}
 
 .accordion-button:not(.collapsed) {
   background-color: black ;
-color:white;}
+color:white;}html,body{
+  height: 100%
+}
+a:hover{
+  list-style: none;
+  text-decoration: none;
+  color:pink
+}

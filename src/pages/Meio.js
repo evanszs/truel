@@ -6,6 +6,7 @@ import fundo from '../img/fundo.png'
 import Footer from './footer';
 import wpp from '../img/whatsapp.png'
 import ig from '../img/instagram.png'
+import Carder from './carder';
 const Meio = () => {
   return (
     <div>
@@ -29,7 +30,7 @@ O estudio fica na Av. Oceanica, 551, no Ed, Barra Center, sobreloja 8.
 <ul> Os atendimentos são feitos com hora marcada 
     e os agendamentos podem ser feitos diretamente com os tatuadores via Instagram ou
      Whatsapp.</ul>
-<ul> Não esqueca de seguir o estúdio nas redes sociais (@tl.inke) para acompanhar 
+<ul> Não esqueca de seguir o estúdio nas redes sociais <a style={{color:"yellow"}} href="https://www.instagram.com/tl.inke/">@tl.inke</a> para acompanhar 
      nossos projetos e eventos, como flashdays, comemorações e novidades.</ul>
 
 </p> <div style={{paddingBottom:"250px"}}></div>
@@ -162,42 +163,80 @@ preparados.</p>
     <img src={fundo}></img>
         </article>
       </section>
+ 
       <section class="section">
 
-       <figure class="image-container">       <img src={pessoas} style={{opacity:'0.3'}}/></figure>
-        <article class="content">
-          <h2 class="section-title">Um pouco sobre nós</h2><span class="byline">True love </span>
-    
+<figure class="image-container">       <img src={pessoas} style={{opacity:'0.3'}}/></figure>
+ <article class="content">
+   <h2 class="section-title">Um pouco sobre nós</h2><span class="byline " style={{color:'pink'}}>True love </span>
+
 <h1> De onde surgimos</h1>
 <p>É um estúdio de tatuagem idealizado e criado em 2020 pelos artistas e tatuadores Erick e Drica Torrez. Localizado no na Barra, o coração de Salvador Bahia e 
 de frente para o mar, o estúdio é a casa de quatro tatuadores talentosos e guests renomados. 
 Arte autoral com qualidade e a melhor experiencia em atendimento é o que mais prezamos.
 </p>
 <p>
- O estúdio foi projetado para você se sentir em casa e desfrutar de uma vista
-  incrível enquanto tatua com os melhores profissionais. Erick Torrez <a><img src={ig} width="5%"/></a>
-   Drica Torrez <a><img src={ig} width="5%"/></a>, Gagabi <a><img src={ig} width="5%"/></a>e Adailton<a><img src={ig} width="5%"/></a>
- são os nossos tatuadores, e cada um tem o seu estilo próprio e
-    autoral.
-    </p>
-        </article>
-      </section>
+O estúdio foi projetado para você se sentir em casa e desfrutar de uma vista
+incrível enquanto tatua com os melhores profissionais.<a href="https://www.instagram.com/ek.trz/"style={{color:'yellow'}}> Erick Torrez</a>,
+<a href="https://www.instagram.com/drica.tattoo/"style={{color:'yellow'}}>   Drica Torrez</a>,  <a href="https://www.instagram.com/gagabi.tattoo/"style={{color:'yellow'}}>Gagabi</a> e  <a href ="https://www.instagram.com/oadailtonunes/"style={{color:'yellow'}}>  Adailton </a>
+são os nossos tatuadores, e cada um tem o seu estilo próprio e
+autoral.
+</p>
 
+<p> 
+<ul>
+
+
+  <li style={{textAlign:"right"}}><a href="https://www.instagram.com/tl.inke/">Truelove <img src={ig} width="5%" style={{marginLeft:'12.8%'}}/><img src={wpp} width="5%" style={{marginLeft:'1%'}}/></a> </li>
+  <li style={{textAlign:"right"}}><a href="https://www.instagram.com/tl.inke/">Adailton <img src={ig} width="5%" style={{marginLeft:'13.2%'}}/><img src={wpp} width="5%" style={{marginLeft:'1%'}}/></a></li>
+  <li style={{textAlign:"right"}}><a href="https://www.instagram.com/tl.inke/">Drica <img src={ig} width="5%" style={{marginLeft:'17%'}}/> <img src={wpp} width="5%" style={{marginLeft:'0%'}}/></a> </li>
+  <li style={{textAlign:"right"}}><a href="https://www.instagram.com/tl.inke/">Erick <img src={ig} width="5%" style={{marginLeft:'17.5%'}}/> <img src={wpp} width="5%" style={{marginLeft:'0%'}}/></a> </li>
+  <li style={{textAlign:"right"}}><a href="https://www.instagram.com/tl.inke/">Gagabe <img src={ig} width="5%" style={{marginLeft:'14.5%'}}/><img src={wpp} width="5%" style={{marginLeft:'1%'}}/></a></li>
+</ul>
+</p>
+
+ </article>
+ 
+</section>
+<section class="section">
+
+<figure class="image-container">       <img src={pessoas} style={{opacity:'0.3'}}/></figure>
+ <article class="content">
+   <h2 class="section-title">Um pouco sobre nós</h2><span class="byline " style={{color:'pink'}}>True love </span>
+
+<h1> De onde surgimos</h1>
+<p>É um estúdio de tatuagem idealizado e criado em 2020 pelos artistas e tatuadores Erick e Drica Torrez. Localizado no na Barra, o coração de Salvador Bahia e 
+de frente para o mar, o estúdio é a casa de quatro tatuadores talentosos e guests renomados. 
+Arte autoral com qualidade e a melhor experiencia em atendimento é o que mais prezamos.
+</p>
+<p>
+O estúdio foi projetado para você se sentir em casa e desfrutar de uma vista
+incrível enquanto tatua com os melhores profissionais.<a href="https://www.instagram.com/ek.trz/"style={{color:'yellow'}}> Erick Torrez</a>,
+<a href="https://www.instagram.com/drica.tattoo/"style={{color:'yellow'}}>   Drica Torrez</a>,  <a href="https://www.instagram.com/gagabi.tattoo/"style={{color:'yellow'}}>Gagabi</a> e  <a href ="https://www.instagram.com/oadailtonunes/"style={{color:'yellow'}}>  Adailton </a>
+são os nossos tatuadores, e cada um tem o seu estilo próprio e
+autoral.
+</p>
+
+ </article>
+ 
+</section>
     </main>
  
 <footer className='footer'>
-    <form>
-<input type="email" placeholder='Enviar um E-mail' required></input> <button>Teste</button></form>
-<span style={{textAlign:'center'}}><p>© 2022 All Rights Reserved | Truelove Tattoo Art  </p> 
-<a><img src={ig} width="5%" style={{marginRight:'10px'}}/></a>
-<a><img src={wpp} width="5%"/></a>
+   
+
+
+
+
+
+<div style={{display:'block'}}>
+<Carder></Carder> <Carder></Carder>
+</div>
+<p><img src={fundo} style={{display:'block',padding:'0'}}></img>© 2022 All Rights Reserved | Truelove Tattoo Art  </p>
  
 
-</span>
 
- 
 
-<img src={fundo}></img>
 
 
 </footer>
