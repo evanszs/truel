@@ -7,12 +7,13 @@ import Footer from './footer';
 import wpp from '../img/whatsapp.png'
 import ig from '../img/instagram.png'
 import Carder from './carder';
+import truelove from '../img/trip.jpg'
 const Meio = () => {
   return (
     <div>
 <main class="main">
       <section class="section">
-        <figure class="image-container"> <img src={ambiente} style={{opacity:'0.3'}}/> </figure>
+        <figure class="image-container"> <img src={barra} style={{opacity:'0.3'}}/> </figure>
  
         <h4></h4>
         <article class="content">
@@ -40,7 +41,7 @@ O estudio fica na Av. Oceanica, 551, no Ed, Barra Center, sobreloja 8.
         </article>
       </section>
       <section class="section">
-        <figure class="image-container"><img src={barra} alt="" style={{opacity:'0.3'}}/></figure>
+        <figure class="image-container"><img src={ambiente} alt="" style={{opacity:'0.3'}}/></figure>
         <article class="content"  style={{textAlign:"center",textJustify:'inter-word'}}>
           <h2 class="section-title">O que eu devo saber?</h2>
           
@@ -160,7 +161,7 @@ preparados.</p>
 </Accordion.Body>
 </Accordion.Item>
     </Accordion>
-    <img src={fundo}></img>
+
         </article>
       </section>
  
@@ -182,8 +183,9 @@ incrível enquanto tatua com os melhores profissionais.<a href="https://www.inst
 são os nossos tatuadores, e cada um tem o seu estilo próprio e
 autoral.
 </p>
-
+ {/*
 <p> 
+ 
 <ul>
 
 
@@ -194,28 +196,21 @@ autoral.
   <li style={{textAlign:"right"}}><a href="https://www.instagram.com/tl.inke/">Gagabe <img src={ig} width="5%" style={{marginLeft:'14.5%'}}/><img src={wpp} width="5%" style={{marginLeft:'1%'}}/></a></li>
 </ul>
 </p>
-
+  */}
  </article>
  
 </section>
 <section class="section">
 
-<figure class="image-container">       <img src={pessoas} style={{opacity:'0.3'}}/></figure>
+<figure class="image-container">       <img src={truelove} style={{opacity:'0.3'}}/></figure>
  <article class="content">
-   <h2 class="section-title">Um pouco sobre nós</h2><span class="byline " style={{color:'pink'}}>True love </span>
+   <h2 class="section-title" style={{marginBottom:"80px"}}>Nosso respaudo</h2>
 
-<h1> De onde surgimos</h1>
-<p>É um estúdio de tatuagem idealizado e criado em 2020 pelos artistas e tatuadores Erick e Drica Torrez. Localizado no na Barra, o coração de Salvador Bahia e 
-de frente para o mar, o estúdio é a casa de quatro tatuadores talentosos e guests renomados. 
-Arte autoral com qualidade e a melhor experiencia em atendimento é o que mais prezamos.
+<p display="block"> <Carder></Carder> 
+
+<span class="byline " style={{color:'pink',paddingBottom:'30%'}}>True love </span>
 </p>
-<p>
-O estúdio foi projetado para você se sentir em casa e desfrutar de uma vista
-incrível enquanto tatua com os melhores profissionais.<a href="https://www.instagram.com/ek.trz/"style={{color:'yellow'}}> Erick Torrez</a>,
-<a href="https://www.instagram.com/drica.tattoo/"style={{color:'yellow'}}>   Drica Torrez</a>,  <a href="https://www.instagram.com/gagabi.tattoo/"style={{color:'yellow'}}>Gagabi</a> e  <a href ="https://www.instagram.com/oadailtonunes/"style={{color:'yellow'}}>  Adailton </a>
-são os nossos tatuadores, e cada um tem o seu estilo próprio e
-autoral.
-</p>
+
 
  </article>
  
@@ -229,9 +224,6 @@ autoral.
 
 
 
-<div style={{display:'block'}}>
-<Carder></Carder> <Carder></Carder>
-</div>
 <p><img src={fundo} style={{display:'block',padding:'0'}}></img>© 2022 All Rights Reserved | Truelove Tattoo Art  </p>
  
 

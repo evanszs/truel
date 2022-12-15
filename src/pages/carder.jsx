@@ -1,7 +1,8 @@
+
 import React from 'react'
 import '../css/carder.css'
 import $ from "jquery"
-import pessoas from '../img/ppl.jpg'
+import pessoas from '../img/gab.jpg'
 const Carder = () => {
 
 
@@ -32,7 +33,7 @@ buttons.forEach((btn) => {
     <div class="card-cover" style={{backgroundImage: "../img/ppl.jpg"}}>a</div>
     <img class="card-avatar" src={pessoas}
   alt="avatar" />
-    <h1 class="card-fullname">William Rocheald</h1>
+    <h1 class="card-fullname">Gagabe</h1>
     <h2 class="card-jobtitle">UI Developer</h2>
   </div>
   <div class="card-main">
