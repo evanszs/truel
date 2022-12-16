@@ -309,3 +309,11 @@ margin-bottom: 3%;
 	 transition: 0.3s;
 }
  
+
+.true{
+z-index: -1;
+position: sticky;
+top: 45%;
+width: 15%;
+
+}

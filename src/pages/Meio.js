@@ -8,6 +8,7 @@ import wpp from '../img/whatsapp.png'
 import ig from '../img/instagram.png'
 import Carder from './carder';
 import truelove from '../img/trip.jpg'
+import { FaFacebookF,FaTwitter,FaLinkedinIn, FaInstagram,FaWhatsapp } from "react-icons/fa";
 const Meio = () => {
   return (
     <div>
@@ -19,7 +20,8 @@ const Meio = () => {
         <article class="content">
           <h2 class="section-title" style={{textAlign:"center"}}>Horário/Local</h2>
           <p style={{textAlign:"center",textJustify:'inter-word'}}>
-          
+                
+
 <h1 > Nossa localização</h1> 
 
 <p>
@@ -73,7 +75,7 @@ estúdio via mensagem por social media.</p>
 <Accordion.Body>
 <p>A melhor forma de agendar uma tattoo e diretamente com os nossos artistas, via social
 media ou whatsapp, por lá nos conseguimos ter um contato mais proximos e captar
-todas as ideias que você teve para a criação da arte.
+todas as ideias que você teve para a criação da <arte className="dir"></arte>
 Quando for solicitar um orcamento, tente nos dar o mais numero de informacoes
 possiveis sobre a tattoo que você planeja ter, como:
 Local, tamanho em cm, a sua ideia e detalhes.
@@ -164,9 +166,9 @@ preparados.</p>
 
         </article>
       </section>
- 
+      </main>
       <section class="section">
-
+      <img src={fundo} className="true"></img>   
 <figure class="image-container">       <img src={pessoas} style={{opacity:'0.3'}}/></figure>
  <article class="content">
    <h2 class="section-title">Um pouco sobre nós</h2><span class="byline " style={{color:'pink'}}>True love </span>
@@ -200,31 +202,71 @@ autoral.
  </article>
  
 </section>
-<section class="section">
 
-<figure class="image-container">       <img src={truelove} style={{opacity:'0.3'}}/></figure>
- <article class="content">
-   <h2 class="section-title" style={{marginBottom:"80px"}}>Nosso respaudo</h2>
-
-<p display="block"> <Carder></Carder> 
-
-<span class="byline " style={{color:'pink',paddingBottom:'30%'}}>True love </span>
-</p>
-
-
- </article>
  
-</section>
-    </main>
- 
-<footer className='footer'>
-   
+
+    <footer class="site-footer">
+
+      <div class="container">
+        <div class="row">
+        <div class="col-xs-6 col-md-3">
+            <h6>Ambiente</h6>
+            <ul class="footer-links">
+              <li>Ventilado (possuir ar)</li>
+              <li>Possui bar</li>
+              <li>De frente para o mar</li>
+              <li>LBTQIA+</li>
+
+            </ul>
+          </div>
+          <div class="col-xs-6 col-md-3">
+            <h6>Tatuadores</h6>
+            <ul class="footer-links" >
+            <li style={{color:'yellow'}}>Adailton</li>
+                   <li style={{color:'yellow'}}>Drica</li>
+                   <li style={{color:'yellow'}}>Erick</li>
+                   <li style={{color:'yellow'}}>Gagabe</li>
+
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+
+            <h4>Social</h4>
+         <ul class="footer-links">
+              <li><FaWhatsapp/>               <FaInstagram/></li>
+                 <li><FaWhatsapp/>               <FaInstagram/></li>
+                 <li><FaWhatsapp/>               <FaInstagram/></li>
+                 <li><FaWhatsapp/>               <FaInstagram/></li>
+
+            </ul>
+       
+          </div>
+        </div>
+        <hr/>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">© 2022 All Rights Reserved | Truelove Tattoo Art
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><FaFacebookF/></a></li>
+              <li><a class="twitter" href="#"><FaTwitter/></a></li>
+
+              <li><a class="linkedin" href="#"><FaLinkedinIn/></a></li>   
+            </ul>
+          </div>
+        </div>
+      </div>
 
 
 
 
 
-<p><img src={fundo} style={{display:'block',padding:'0'}}></img>© 2022 All Rights Reserved | Truelove Tattoo Art  </p>
  
 
 
