@@ -7,7 +7,7 @@ const Header = () => {
 
     <div >
       <div>
-      <h1 class="page-title">True love </h1>
+      <h1 class="page-title">Sobre Nós </h1>
     <header class="header bd"> 
 
      </header>

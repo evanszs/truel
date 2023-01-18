@@ -25,15 +25,19 @@ const Meio = () => {
 <h1 > Nossa localização</h1> 
 
 <p>
-O estudio fica na Av. Oceanica, 551, no Ed, Barra Center, sobreloja 8.
+O estúdio fica na Av. Oceanica, 551, no Edificío, Barra Center, sobreloja 8.
 </p>
 <p>
 <h1 style={{marginTop:"50px"}}>Funcionamento</h1>
-<ul> Todos os dias porém com hora marcada começando as 11:00 e terminando as 19:00</ul>
-<ul> Os atendimentos são feitos com hora marcada 
-    e os agendamentos podem ser feitos diretamente com os tatuadores via Instagram ou
-     Whatsapp.</ul>
-<ul> Não esqueca de seguir o estúdio nas redes sociais <a style={{color:"yellow"}} href="https://www.instagram.com/tl.inke/">@tl.inke</a> para acompanhar 
+<ul> Todos os dias de Segunda a Domingo 10:00-19:00</ul>
+<ul> Nosso time possui um horário de trabalho bem flexível, 
+sendo possível agendar uma tattoo qualquer dia da semana.
+Porém os atendimentos são feitos com hora marcada.
+Os agendamentos podem ser feitos diretamente com os nossos artistas via 
+Instagram ou Whatsapp.</ul>
+<ul>No estúdio acontecem alguns eventos e projetos, como Flashdays, comemorações e novidades, 
+então não esqueça de segui os estúdio nas redes sociais <a style={{color:"yellow"}} href="https://www.instagram.com/tl.inke/">@tl.inke</a> para ficar por dentro
+do que está acontecendo.  para acompanhar 
      nossos projetos e eventos, como flashdays, comemorações e novidades.</ul>
 
 </p> <div style={{paddingBottom:"250px"}}></div>
@@ -74,15 +78,15 @@ estúdio via mensagem por social media.</p>
 <Accordion.Header>Como eu posso agendar um horário?</Accordion.Header>
 <Accordion.Body>
 <p>A melhor forma de agendar uma tattoo e diretamente com os nossos artistas, via social
-media ou whatsapp, por lá nos conseguimos ter um contato mais proximos e captar
+midia ou whatsapp, por lá nos conseguimos ter um contato mais proximos e captar
 todas as ideias que você teve para a criação da <arte className="dir"></arte>
-Quando for solicitar um orcamento, tente nos dar o mais numero de informacoes
+Quando for solicitar um orçamento, tente nos dar o mais número de informações
 possiveis sobre a tattoo que você planeja ter, como:
 Local, tamanho em cm, a sua ideia e detalhes.
 Fique a vontade para mandar referência , elas nos ajudam a entender melhor como
 você idealizou a sua tattoo.
-Para que o seu horário seja resevado e necessário o pagamento adiantado de um sinal
-no valor de R$50,00. Este sinal será abatido no valor final da sessão.
+Para que o seu horário seja resevado e necessário o pagamento adiantado de um sinal no valor combinado com o artista
+. Este sinal será abatido no valor final da sessão.
 Ex: se o valor da tatuagem e 350 reais o sinal depositado e de 50 reais e no final da
 sessão você paga 300 reais) </p>
 </Accordion.Body>
@@ -93,23 +97,23 @@ sessão você paga 300 reais) </p>
 </Accordion.Header>
 <Accordion.Body>
 <p> Nós sabemos como é difícil juntar dinheiro para uma tatto, então queremos que você
-tenha uma noção de quanto cobramos nas nossas tatuagens
+tenha uma noção de quanto cobramos nas nossas tatuagens.
 Os preços médios no estúdio são :
-Pequena (palavras ou desenhos ate 5 cm) - R$250
-Médiia(frase ou desenhos ate 8 cm)- R$300~400
-Grande (desenhos ate 15cm)- R$500~700
-Fechamentos (braço, perna, costas)-R$1500~3000
+-Pequena (palavras ou desenhos até 5 cm)- R$250
+-Média (frase ou desenhos até 8cm)- R$300~R$400
+-Grande (desenhos até 15cm)- R$500~700
+-Fechamentos (braço, perna, costas)- R$1500~3000
  Lembrando que os valores estão sujeitos a alteração dependendo do artista que fizer
 e a quantidade de detalhes da arte final.</p>
 </Accordion.Body>
 </Accordion.Item>
 <Accordion.Item eventKey="4">
 
-<Accordion.Header>Posso consultar o artista antes da sessao?
+<Accordion.Header>Posso consultar o artista antes da sessão?
 </Accordion.Header>
 <Accordion.Body>
-<p> Sim, nossos artistas sao capacitados para fazer coberturas de todos os tipos. MAs nem
-sempre é possivel fazer exatamente o que voce esta pensando pois geralmente
+<p> Sim, nossos artistas são capacitados para fazer coberturas de todos os tipos.Ms nem
+sempre é possível fazer exatamente o que você esta pensando pois geralmente
 coberturas tem mais limitações, diferentes de projetos criados do zero. Por isso seja
 flexível quanto considerar a ideia sugerida pelo profissional, já que ele busca fazer o
 melhor trabalho</p>
@@ -117,11 +121,10 @@ melhor trabalho</p>
 </Accordion.Item>
 <Accordion.Item eventKey="5">
 
-<Accordion.Header>E a minha primeira tattoo, o que devo saber?</Accordion.Header>
+<Accordion.Header>É a minha primeira tattoo, o que devo saber?</Accordion.Header>
 <Accordion.Body>
 <p>Todos os dias encontramos pessoas interessadas em fazer sua primeira tatuagem
-conosco. Então sim, nós sabemos como você se sente..
-Textos Site 4
+conosco. Então sim, nós sabemos como você se sente.
 Não há limite de idade para a primeira tatuagem, exceto para menores de idade.
 Algumas pessoas fazem sua primeira tatuagem no final dos anos 80, então você não
 deve ter vergonha de dizer isso ao seu artista.
@@ -157,8 +160,8 @@ remarcar a sessão.
 
 <Accordion.Header>Posso levar acompanhante?</Accordion.Header>
 <Accordion.Body>
-<p>É possivel levar acompanhante, mas saiba que muitas vezes a espera na sessao e
-longa, e nem sempre e possivel acompanhar a tatto de perto, entao todos devem vir
+<p>É possível levar acompanhante, mas saiba que muitas vezes a espera na sessão e
+longa, e nem sempre e possível acompanhar a tattoo de perto, então todos devem vir
 preparados.</p>
 </Accordion.Body>
 </Accordion.Item>
@@ -171,10 +174,10 @@ preparados.</p>
       <img src={fundo} className="true"></img>   
 <figure class="image-container">       <img src={pessoas} style={{opacity:'0.3'}}/></figure>
  <article class="content">
-   <h2 class="section-title">Um pouco sobre nós</h2><span class="byline " style={{color:'pink'}}>True love </span>
+   <h2 class="section-title">Informações</h2><span class="byline " style={{color:'pink'}}>True love </span>
 
-<h1> De onde surgimos</h1>
-<p>É um estúdio de tatuagem idealizado e criado em 2020 pelos artistas e tatuadores Erick e Drica Torrez. Localizado no na Barra, o coração de Salvador Bahia e 
+<h1> Como tudo começou</h1>
+<p>O nosso estúdio de tatuagem idealizado e criado em 2020 pelos artistas e tatuadores Erick e Drica Torrez. Localizado no na Barra, o coração de Salvador Bahia e 
 de frente para o mar, o estúdio é a casa de quatro tatuadores talentosos e guests renomados. 
 Arte autoral com qualidade e a melhor experiencia em atendimento é o que mais prezamos.
 </p>
@@ -225,7 +228,7 @@ autoral.
             <li style={{color:'yellow'}}>Adailton</li>
                    <li style={{color:'yellow'}}>Drica</li>
                    <li style={{color:'yellow'}}>Erick</li>
-                   <li style={{color:'yellow'}}>Gagabe</li>
+                   <li style={{color:'yellow'}}>Gagabi</li>
 
             </ul>
           </div>
