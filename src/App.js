@@ -1,15 +1,20 @@
 
 import './App.css';
-import Footer from './pages/footer';
+import Cartoes from './pages/Cartoes';
 import Header from './pages/Header';
 import Meio from './pages/Meio';
 
 function App() {
   return (
     <div className="App">
-
-<Header></Header>
+<div>
 <Meio></Meio>
+</div>
+<Header/>
+<Cartoes></Cartoes>
+
+
+
 
     </div>
   );
